@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.155.0/http/server.ts"; // 或更新到最新稳定版，如 @0.224.0
+import { serve } from "https://deno.land/std@0.224.0/http/server.ts"; // 或更新到最新稳定版，如 @0.224.0
 
 async function handler(req: Request): Promise<Response> {
   const incomingUrl = new URL(req.url);
